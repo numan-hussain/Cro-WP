@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cro - Multipurpose HTML Template </title>
+	 
 
 	<!--================
 				CSS
@@ -42,7 +42,7 @@
 <?php wp_head();?>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body <?php body_class();?> id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 	<!--================
 			Navigation
