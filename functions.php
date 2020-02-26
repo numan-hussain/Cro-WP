@@ -9,6 +9,5 @@ add_action( "after_setup_theme", "cro_after_setup" );
 
 function cro_all_css_and_js(){
     wp_enqueue_style( "cro", get_stylesheet_url() );
-    
 }
 add_action( "wp_enqueue_scripts", "cro_all_css_and_js" );
